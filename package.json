@@ -20,7 +20,6 @@
     "@angular/platform-browser-dynamic": "~8.2.9",
     "@angular/router": "~8.2.9",
     "angular-in-memory-web-api": "^0.9.0",
-    "materialize-css": "^1.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
@@ -41,9 +40,13 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "npm-force-resolutions": "0.0.2",
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "resolutions": {
+    "https-proxy-agent": "^3.0.0"
   }
 }
